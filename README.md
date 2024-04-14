@@ -4,18 +4,17 @@ Esta é uma solução para o [desafio da seção de comentários interativos no 
 
 ## Índice
 
-- [Visão-geral](#visão geral)
-- [Captura-de-tela](#captura de tela)
+- [Visão geral](#visão-geral)
+- [Captura de tela](#captura-de-tela)
 - [Links](#links)
-- [Meu processo](#meu-processo)
-- [Construído-com](#construído com)
-- [O-que-aprendi](#o que aprendi)
-- [Desenvolvimento-contínuo](#desenvolvimento contínuo)
+- [Construído com](#construído-com)
+- [O que aprendi](#o-que-aprendi)
+- [Desenvolvimento contínuo](#desenvolvimento-contínuo)
 - [Recursos úteis](#useful-resources)
 - [Autor](#autor)
 - [Agradecimentos](#agradecimentos)
 
-## Visão geral
+### Visão geral
 
 Este projeto é uma aplicação web utilizando HTML, CSS, Javascript e Firebase Firestore como banco de dados Realtime, utilizando módulos e Javascript moderno no navegador.
 
@@ -29,7 +28,6 @@ Este projeto é uma aplicação web utilizando HTML, CSS, Javascript e Firebase 
 
 - URL da solução: [Linke do Site](https://secao-de-comentario.netlify.app/)
 
-## Meu processo
 
 ### Construído com
 
