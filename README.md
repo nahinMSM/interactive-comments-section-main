@@ -25,10 +25,9 @@ Este projeto é uma aplicação web utilizando HTML, CSS, Javascript e Firebase 
 ![design](https://github.com/nahinMSM/interactive-comments-section-main/blob/master/design/desktop-preview.jpg)
 
 
-###Links
+### Links
 
-- URL da solução: [Adicione o URL da solução aqui](https://your-solution-url.com)
-- URL do site ativo: [Adicione o URL do site ativo aqui](https://your-live-site-url.com)
+- URL da solução: [Linke do Site](https://secao-de-comentario.netlify.app/)
 
 ## Meu processo
 
