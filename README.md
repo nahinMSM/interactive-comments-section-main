@@ -22,7 +22,7 @@ Este projeto é uma aplicação web utilizando HTML, CSS, Javascript e Firebase 
 
 ### Captura de tela
 
-![](./captura de tela.jpg)
+![design](https://github.com/nahinMSM/interactive-comments-section-main/blob/master/design/desktop-preview.jpg)
 
 
 ###Links
