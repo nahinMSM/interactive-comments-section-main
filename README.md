@@ -4,14 +4,14 @@ Esta é uma solução para o [desafio da seção de comentários interativos no 
 
 ## Índice
 
-- [Visão geral](#visão geral)
-  - [Captura de tela](#captura de tela)
-  - [Links](#links)
+- [Visão-geral](#visão geral)
+- [Captura-de-tela](#captura de tela)
+- [Links](#links)
 - [Meu processo](#meu-processo)
-  - [Construído com](#construído com)
-  - [O que aprendi](#o que aprendi)
-  - [Desenvolvimento contínuo](#desenvolvimento contínuo)
-  - [Recursos úteis](#useful-resources)
+- [Construído-com](#construído com)
+- [O-que-aprendi](#o que aprendi)
+- [Desenvolvimento-contínuo](#desenvolvimento contínuo)
+- [Recursos úteis](#useful-resources)
 - [Autor](#autor)
 - [Agradecimentos](#agradecimentos)
 
