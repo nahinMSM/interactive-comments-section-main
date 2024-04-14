@@ -1,0 +1,158 @@
+@media (max-width: 800px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  main {
+    height: 74vh;
+    width: 100vw;
+  }
+
+  .section {
+    display: flex;
+    align-items: center;
+  }
+
+  .comments {
+    position: relative;
+    width: 85vw;
+  }
+
+  .head-avatar {
+    width: 80vw;
+  }
+
+  .head-avatar button {
+    position: absolute;
+    bottom: 25px;
+    right: 20px;
+  }
+
+  .txt-comments {
+    margin-bottom: 50px;
+    width: 80vw;
+  }
+
+  .ToComments {
+    margin-left: 30px;
+    width: 78vw;
+  }
+
+  .ThisComment {
+    position: relative;
+    margin-left: 30px;
+    width: 78vw;
+  }
+
+  .ThisComment img {
+    position: absolute;
+    bottom: 20px;
+  }
+
+  .ThisComment button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+  }
+
+  .ThisComment textarea {
+    margin-bottom: 50px;
+  }
+
+  .ThisMyComment .comments {
+    width: 78vw;
+    margin-left: 30px;
+  }
+
+  .ThisMyComment .head-avatar, 
+  .ThisMyComment .txt-comments, 
+  .txtAreaEdit .txtArea {
+    width: 78vw;
+  }
+
+  .ThisMyComment .txtArea {
+    width: 74vw;
+  }
+
+  .txtAreaEdit button {
+    position: absolute;
+    width: 110px;
+    height: 40px;
+    bottom: 20px;
+  }
+
+  .ToComments .txt {
+    margin-bottom: 50px;
+    width: 80vw;
+  }
+
+  .plus-minus {
+    display: flex;
+    flex-direction: initial;
+    bottom: 20px;
+    height: 15px;
+    position: absolute;
+  }
+
+  .formSend {
+    width: 90vw;
+  }
+
+  .formSend img {
+    position: absolute;
+    bottom: 20px;
+  }
+
+  .formSend button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+  }
+
+  .formSend textarea {
+    margin-bottom: 50px;
+  }
+
+  .formReply {
+    position: relative;
+    width: 85vw;
+  }
+
+  .formReply img {
+    position: absolute;
+    bottom: 20px;
+  }
+
+  .formReply button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+  }
+
+  .formReply textarea {
+    margin-bottom: 50px;
+  }
+
+  .bts .btn-delete {
+    margin-right: 70px;
+  }
+
+  .bgConfirm {
+    width: 100vw;
+  }
+
+  .bgConfirm .modal {
+    width: 75vw;
+    height: 200px;
+  }
+
+  .bgConfirm .modal p {
+    font-size: 16px;
+  }
+
+  .bgConfirm .modal button {
+    font-size: 15px;
+    padding: 15px 20px;
+  }
+}

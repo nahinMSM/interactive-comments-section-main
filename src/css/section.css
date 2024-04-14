@@ -1,0 +1,44 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.comments {
+  display: flex;
+  gap: 20px;
+  width: 600px;
+  background-color: var(--White);
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 15px;
+}
+
+.ToComments {
+  width: 525px;
+}
+
+.ThisComment {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 525px;
+  background-color: var(--White);
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 5px;
+  gap: 10px;
+}
+
+.ThisMyComment .comments {
+  width: 525px;
+}
+
+.ThisMyComment .head-avatar,
+.ThisMyComment .txt-comments {
+  width: 460px;
+}
+
+.ThisMyComment .txtArea {
+  width: 440px;
+}

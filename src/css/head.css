@@ -1,0 +1,27 @@
+.head-avatar {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+}
+
+.head-avatar .bts {
+  display: flex;
+  gap: 20px;
+}
+
+.avatar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.avatar img {
+  width: 35px;
+}
+
+.avatar .you {
+  background-color: var(--Moderate-blue);
+  color: var(--White);
+  padding: 1px 7px 4px 7px;
+}

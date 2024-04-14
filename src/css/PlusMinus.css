@@ -1,0 +1,22 @@
+.plus-minus {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--Moderate-blue);
+  font-weight: 700;
+  gap: 20px;
+  height: 70px;
+  padding: 13px;
+  border-radius: 10px;
+  background-color: var(--Very-light-gray);
+}
+
+.plus-minus img {
+  width: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.plus-minus img:hover {
+  filter: invert(38%) sepia(57%) saturate(626%) hue-rotate(199deg) brightness(85%) contrast(93%);
+}

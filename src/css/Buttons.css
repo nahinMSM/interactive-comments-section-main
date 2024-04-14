@@ -1,0 +1,53 @@
+form button,
+.txtAreaEdit button {
+  border: none;
+  background-color: var(--Moderate-blue);
+  color: var(--White);
+  border-radius: 5px;
+  padding: 10px 17px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.txtAreaEdit button {
+  display: none;
+  float: right;
+  margin-top: 15px;
+}
+
+form button:hover,
+.txtAreaEdit button:hover {
+  background-color: var(--Light-grayish-blue);
+}
+
+.bgConfirm button {
+  padding: 20px 35px;
+  border: none;
+  color: var(--White);
+  font-size: 19px;
+  font-weight: 700;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.head-avatar button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--Moderate-blue);
+  font-weight: 700;
+  font-size: 16px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.head-avatar button:hover {
+  filter: invert(90%) sepia(57%) saturate(6428%) hue-rotate(178deg) brightness(98%) contrast(89%);
+}
+
+.bts .btn-delete {
+  color: var(--Soft-Red);
+}
+

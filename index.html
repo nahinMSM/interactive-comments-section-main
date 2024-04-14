@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap">
+  
+  <link rel="stylesheet" href="src/css/style.css">
+  <link rel="stylesheet" href="src/css/section.css">
+  <link rel="stylesheet" href="src/css/PlusMinus.css">
+  <link rel="stylesheet" href="src/css/head.css">
+  <link rel="stylesheet" href="src/css/Text.css">
+  <link rel="stylesheet" href="src/css/form.css">
+  <link rel="stylesheet" href="src/css/Buttons.css">
+  <link rel="stylesheet" href="src/css/modal.css">
+  <link rel="stylesheet" href="src/css/footer.css">
+  <link rel="stylesheet" href="src/css/mobli.css">
+  <title>Frontend Mentor | Interactive comments section</title>
+</head>
+
+<body>
+  <main>
+    <div class="contennerSection">
+      <div class="section">
+        <div class="comments">
+          <div class="plus-minus">
+            <img class="plus" src="images/icon-plus.svg" alt="Icon-Plus">
+            <span class="counter">12</span>
+            <img class="minus" src="images/icon-minus.svg" alt="Icon-Minus">
+          </div>
+          <div>
+            <div class="head-avatar">
+              <div class="avatar">
+                <img src="images/avatars/image-amyrobson.png" alt="Avatar">
+                <strong>amyrobson</strong>
+                <p>1 month ago</p>
+              </div>
+              <button><img src="images/icon-reply.svg" alt="Reply">Reply</button>
+            </div>
+            <div class="txt-comments">
+              <p>Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've
+                nailed the design and the responsiveness at various breakpoints works really well.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contennerSection">
+      <div class="section">
+        <div class="comments">
+          <div class="plus-minus">
+            <img class="plus" src="images/icon-plus.svg" alt="Icon-Plus">
+            <span class="counter">5</span>
+            <img class="minus" src="images/icon-minus.svg" alt="Icon-Minus">
+          </div>
+          <div>
+            <div class="head-avatar">
+              <div class="avatar">
+                <img src="images/avatars/image-maxblagun.png" alt="Avatar">
+                <strong>maxblagun</strong>
+                <p>2 weeks ago</p>
+              </div>
+              <button><img src="images/icon-reply.svg" alt="Reply">Reply</button>
+            </div>
+            <div class="txt-comments">
+              <p>Woah, your project looks awesome! How long have you been coding for? I'm still new, but think I want to
+                dive into React as well soon. Perhaps you can give me an insight on where I can learn React? Thanks!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contennerSection">
+      <div class="section">
+        <div class="comments ToComments">
+          <div class="plus-minus">
+            <img class="plus" src="images/icon-plus.svg" alt="Icon-Plus">
+            <span class="counter">4</span>
+            <img class="minus" src="images/icon-minus.svg" alt="Icon-Minus">
+          </div>
+          <div>
+            <div class="head-avatar">
+              <div class="avatar">
+                <img src="images/avatars/image-ramsesmiron.png" alt="Avatar">
+                <strong>ramsesmiron</strong>
+                <p>1 weeks ago</p>
+              </div>
+              <button class="thisCommet"><img src="images/icon-reply.svg" alt="Reply">Reply</button>
+            </div>
+            <div class="txt">
+              <p><strong>@maxblagun</strong> If you're still new, I'd recommend focusing on the fundamentals of
+                HTML, CSS, and JS before considering React. It's very tempting to jump ahead but lay a solid
+                foundation first.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="myComment" tabindex="0"></div>
+  </main>
+
+  <form class="formSend" id="enviform">
+    <img src="images/avatars/image-juliusomo.png" alt="Avatar">
+    <textarea id="envicommit" cols="60" rows="4" placeholder="Add a comment..."></textarea>
+    <button>SEND</button>
+  </form>
+  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.linkedin.com/in/nahin-moreira-752b9a246/">Nahin Moreira</a>.
+  </footer>
+  <script type="module" src="src/js/SendForm.js"></script>
+  <script type="module" src="src/js/Reply.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+.ToComments .txt {
+  width: 460px;
+  line-height: 23px;
+  margin-top: 10px;
+}
+
+.txt-comments {
+  width: 540px;
+  font-weight: 300;
+  line-height: 23px;
+  margin-top: 10px;
+}
+
+.txt-comments strong {
+  color: var(--Moderate-blue);
+}
+
+.txt strong {
+  color: var(--Moderate-blue)
+}
