@@ -8,7 +8,7 @@
   }
 
   main {
-    height: 65%;
+    height: 68%;
   }
 
   .section {
@@ -156,5 +156,9 @@
   .bgConfirm .modal button {
     font-size: 15px;
     padding: 15px 20px;
+  }
+  
+  .attribution {
+    position: fixed;
   }
 }
