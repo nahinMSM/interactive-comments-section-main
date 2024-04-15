@@ -4,11 +4,11 @@
     padding: 0;
   }
   body { 
-    height: 100vh;
+    height: 100%;
   }
 
   main {
-    height: 68%;
+    height: 70%;
   }
 
   .section {
@@ -159,6 +159,6 @@
   }
   
   .attribution {
-    position: fixed;
+    position: absolute;
   }
 }
